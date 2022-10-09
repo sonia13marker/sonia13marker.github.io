@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--подключение стилей-->
+	<link rel="stylesheet" href="style.css">
+
+	<!--подключение шрифтов-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;600;700&display=swap" rel="stylesheet">
+
+	<title>Сайт-визитка</title>
+
+
+	<!--подключение фавиконки-->
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+</head>
+
+
+<body>
+<!--начало верстки, навигация по сайту и основная инфа-->	
+<header class="header">
+
+	<nav class="header__nav">
+		<a href="#about_me" class="nav__a a_active">О себе</a>
+		<a href="#roadmap" class="nav__a">Путь</a>
+		<a href="#mine_skills" class="nav__a">Навыки</a>
+		<a href="#social_links" class="nav__a">Соц.сети</a>
+	</nav>
+
+	<div class="header__stripe">
+
+		<img src="images/header-line1.svg" class="stripe__line" alt="lines">
+
+		<div class="stripe__img">
+			<img src="images/dots_in_photo.svg" class="dots_photo" alt="dots">
+			<img src="images/photo.jpg" alt="mine_photo">
+			<img src="images/line.svg" alt="line" class="line_photo">
+		</div>
+
+		<div class="stripe__info" id="about_me">
+			<h1 class="span_h1">Приветствую</h1>
+				<h2 class="span_h2">на обратной стороне</h2>
+				<h5 class="span_h5">Немного информации обо мне</h5>
+				<p><span class="span_text">Полное имя:</span> Моисеева Софья Дмитриевна</p>
+				<p><span class="span_text">Псевдоним:</span> Софья Маркер, sonia marker</p>
+				<p><span class="span_text">Дата рождения: </span>13 февраля 2004 года</p>
+				<p><span class="span_text">Возраст: </span>18 лет</p>
+		</div>
+	</div>
+</header>
+<!--закрытие тега header-->
+
+<!--основной контейнер с содержимым-->
+	<main class="main">
+		
+		<div class="container">
+		
+			<!--раздел с описанием пути, конкретными карточками, квадратами и тектом-->
+			<div class="road" id="roadmap">
+				<h3 class="main_h3">Мой путь</h3>
+
+				<div class="road_1">
+					<span class="road__quadr q1">01</span>
+						<h4 class="road__h4 right1">Выбор профессии</h4>
+						<p class="road__text">Это далось нелегко. Учитывались все профессии, связанные с моими хобби и интересами - от орнитолога до физика-ядерщика. Но разговоры моих родственников о том, что есть такая профессия, как программист - разожгла во мне интерес...</p>
+				</div>
+
+				<div class="road_2">
+					<span class="road__quadr q2">02</span>
+					
+						<h4 class="road__h4">Исследование</h4>
+						<p class="road__text ">Видео на ютубе, статьи и приложения - все это поспособствовало тому, чтобы однажды я наткнулась на “HTML.Academy” - вот отсюда начинается мой путь в веб-разработке.</p>
+				</div>
+
+				<div class="road_3">
+					<span class="road__quadr q3">03</span>
+					
+						<h4 class="road__h4">Поступление</h4>
+						<p class="road__text">После окончания школы я поступаю на программиста в один из колледжей своего города (спойлер - ни капли не жалею). Стоит вопрос о выборе конкретной ниши развития: разработка приложений на телефон, игр... и конечно-же - верстка сайтов. В ходе задания как допуска к экзамену - разработала свой первый калькулятор в браузере, с использованием HTML, CSS, JS.</p>
+				</div>
+
+				<div class="road_4">
+					<span class="road__quadr q4">04</span>
+					
+						<h4 class="road__h4">Видеоуроки и книги</h4>
+						<p class="road__text">С этого момента начинается мое углубление в веб-дизайн и разработку. Сначала курсы по Figma - простенькие дизайны элементов интерфейса, которые позже перерастут в сайты “для души и портфолио”. Потом - вёрстка, сначала только с использованием HTML и тега "center" для размещения элемента по середине, тега "font" для изменения цвета и гарнитуры, отсутстием табуляции и комментариев в коде, а после - использование CSS-анимаций, Flexbox и Grid-верстки. </p>
+				</div>
+
+				<div class="road_5">
+					<span class="road__quadr q5">05</span>
+					
+						<h4 class="road__h4">Курс на покорение высот</h4>
+						<p class="road__text">Конечно же, это еще не конец. Но знания, которые я имею сейчас, помогают мне над проектом, который у меня в разработке на на данный момент - я пишу сайт с нуля, который в будущем появится в общем доступе для всех!</p>
+				</div> 
+
+<!--закрытие раздела road-->
+
+				
+
+		</div> 
+	</div>
+<!--закрытие класса container-->
+	</main>
+
+
+
+<!--открытие класса навыков-->
+	<div class="skills" id="mine_skills">
+
+					<h3 class="main_h3">Что же я умею сейчас?</h3>
+
+					<div class="skills__card">
+						
+						<div>
+							<span><img src="images/skills_1.svg" alt="crd1"></span>
+							<p class="card__text">HTML 5</p>
+						</div>
+
+						<div>
+							<span><img src="images/skills_2.svg" alt="crd2" class="skill2"></span>
+							<p class="card__text">CSS 3</p>
+						</div>
+
+						<div>
+							<span><img src="images/skills_3.svg" alt="crd3" class="skill1"></span>
+							<p class="card__text">Основы JavaScript</p>
+						</div>
+
+						<div>
+							<span><img src="images/skills_4.svg" alt="crd4"></span>
+							<p class="card__text">Работа в Figma</p>
+						</div>
+
+						<div>
+							<span><img src="images/skills_5.svg" alt="crd5" class="skill3"></span>
+							<p class="card__text">Основы работы с Github</p>
+						</div>
+
+					</div>
+
+				</div>
+<!--закрытие класса навыков-->
+
+<!--открытие блока с соц сетями-->		
+	<div  id="social_links">
+
+		<h3 class="main_h3">Меня можно найти тут:</h3>
+
+			<div class="social__icons">
+					<span>
+						<a href="https://vk.com/mmarkerr"  target="_blank"><img src="images/ic1.svg" alt="c1" title="Я в ВКонтакте"></a>
+					</span>
+
+					<span>
+						<a href="https://t.me/username_marker"  target="_blank"><img src="images/ic2.svg" alt="c2" title="Напишите мне в Telegram"></a>
+					</span>
+
+					<span>
+						<a href="mailto:soniamarker13@gmail.com"  target="_blank"><img src="images/ic3.svg" alt="c3" title="Жду письма на почту!"></a>
+					</span>
+
+					<span>
+						<a href="https://github.com/sonia13marker"  target="_blank"><img src="images/ic4.svg" alt="c4" title="Посмотрите на Github"></a>
+					</span>
+
+					<span>
+						<a href="https://codepen.io/marrker"  target="_blank"><img src="images/ic5.svg" alt="c5" title="Не забудьте заглянуть сюда!"></a>
+					</span>
+
+			</div>
+			<p class="icons__text">Ссылка на видео для творческого задания: <a href="https://disk.yandex.ru/d/aLY4ZoeJswfBHA"> https://disk.yandex.ru</a></p>
+
+	</div>
+<!--закрытие блока с соц сетями-->
+
+<!--открытие подвала и навигации-->
+	<footer class="footer">
+
+		<div class="footer__navigation">
+
+			<ul class="footer__nav">
+				<li>Навигация:</li>
+				<li><a href="#about_me">О себе</a></li>
+				<li><a href="#roadmap">Путь</a></li>
+				<li><a href="#mine_skills">Навыки</a></li>
+				<li><a href="#social_links">Соц.сети</a></li>
+			</ul>
+
+				<p class="nav__p">&#64; sonia marker, 2022</p>
+
+			<ul class="footer__nav">
+				<li>Почта для связи:</li>
+				<li>soniamarker13@gmail.com</li>
+				<li>Телефон:</li>
+				<li>8 (918) 253 - 63 - 64</li>
+			</ul>
+
+		</div>
+
+	</footer>
+
+</body>
+
+</html>
